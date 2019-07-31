@@ -22,7 +22,7 @@ if(popa > popb) {
   if (novo_teste == 'n'){
      rodar = false
      break
-  }//se não as variáveis são atualizadas e o loop continua
+  }//se sim as variáveis são atualizadas e o loop continua
   else if(novo_teste == 's') {
       popa = prompt('popa: ')
       popb = prompt('popb: ')
