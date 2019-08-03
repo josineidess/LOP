@@ -25,7 +25,7 @@ for(var e = 0; e < vetor_p.length;e++){
     //condição que checa a 3 faixa de preço
     }else if(vetor_p[e] > 100.00){
         q_ms100 += 1
-        //não esquecer se usar parseInt, se não o programa concatena em vez de somar
+        //não esquecer de usar parseInt(transforma em inteiro), se não o programa concatena em vez de somar
         m_p100 += parseInt(vetor_p[e])
     }
 }
