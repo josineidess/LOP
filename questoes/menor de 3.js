@@ -1,0 +1,5 @@
+var a = prompt("a: ")
+var b = prompt("b: ")
+var c = prompt("c: ")
+var menor = Math.min(a,b,c)
+alert(menor+ " eh o menor")
