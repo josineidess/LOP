@@ -15,7 +15,7 @@ for (let e = 0; e < lista.length; e ++) {
         valor = 0;
         //se não o valor será a divisão inteira
         } else {
-        //Math.trunc arredonda para cima
+        //Math.round arredonda para cima
         lista[9] = Math.round(num/0.1);
         valor = num % lista[e];
         }
