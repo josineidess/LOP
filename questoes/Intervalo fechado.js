@@ -1,3 +1,14 @@
+//forma simples
+var a = parseInt(prompt("a:"))
+var b = parseInt(prompt("b:"))
+var c = parseInt(prompt("c:"))
+if((c > a && c < b) || (c < a && c > b)){
+alert("pertence")
+}else{
+alert("nao pertence")
+}
+
+//forma estranha
 var array = []
 var a = array[0] = prompt('a: ')
 var b = array[1] = prompt('b: ')
