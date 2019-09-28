@@ -1,3 +1,12 @@
+//forma simples
+var number = parseInt(prompt("number: "))
+var d = (number % 100) 
+var c = (number - d)/100
+var u = d % 10
+d = (d - u)/10
+alert(u+""+d+""+c)
+
+//forma estranha
 var num = prompt('num: ')
 var vetor = []
 //charAt pega o elemento do respectivo índice
