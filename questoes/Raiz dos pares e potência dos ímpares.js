@@ -1,3 +1,17 @@
+var vetor = []
+var msg = ''
+for(var e = 0; e < 12;e++){
+    var n = parseFloat(prompt("num: "))
+    vetor[e] = n
+    if(e%2==0){
+        msg+=Math.sqrt(n)+" "
+    }else{
+        msg+=Math.pow(n,3)+" "
+    }
+}
+alert(msg)
+/*outra forma de fazer*/
+
 var new_l = []
 //o laço for se repete 12 vezes
 for(var e = 0; e < 12; e ++){
