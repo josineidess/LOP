@@ -11,3 +11,16 @@ var n_nums = num.reverse()
 //o join separa os elementos pelo que for pedido, nesse caso espaço(" ")
 var b = n_nums.join(" ")
 alert(b)
+
+/*outra forma de fazer*/
+var vetor = []
+for(var e = 9; e >= 0;e--){
+    var num = parseInt(prompt("numero: "))
+    vetor[e] = num
+}
+var msg = ''
+for(var i = 0; i < vetor.length;i++){
+    msg += vetor[i]+" "
+    
+}
+alert(msg)
