@@ -1,3 +1,17 @@
+var n = parseInt(prompt("num:"))
+var vetor = []
+var msg = ''
+for(var e = 0; e < n;e++){
+    var num = parseInt(prompt("num: "))
+    vetor[e] = num
+    if(e%2==0){
+        msg+=num+" "
+    }
+}
+alert(msg)
+
+/*usando o while e métodos*/
+
 //prompt é um comando de entrada, ele recebe o que pe digitado
 var total = prompt('total: ')
 e = 0
