@@ -25,3 +25,22 @@ for(var e = 0; e < 10;e ++) {
 //os elementos da 3 lista são separados por espaço através do join
 var vc = vecc.join(" ")
 alert(vc)
+
+*/outra forma de fazer*/
+var vca = []
+var vcb = []
+var vcc = []
+var msg = ''
+for(var e = 0; e < 10;e++){
+    var num = parseInt(prompt("Num:"))
+    vca[e] = num
+}
+for(var e = 0; e < 10;e++){
+    var num = parseInt(prompt("Num:"))
+    vcb[e] = num
+}
+for(var e = 0; e < 10;e++){
+    vcc[e] = vca[e] + vcb[e]
+    msg+=vcc[e]+" "
+}
+alert(msg)
