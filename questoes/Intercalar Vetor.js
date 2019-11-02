@@ -1,3 +1,22 @@
+var a =  []
+var b = []
+var c = []
+for(var e = 0;e < 10;e++){
+    var n = parseInt(prompt("num: "))
+    a[e] = n
+}
+for(var e = 0;e < 10;e++){
+    var n = parseInt(prompt("num: "))
+    b[e] = n
+}
+for(var e = 0,r = 0;e < 20;e+=2){
+    c[e]=a[r]
+    c[e+1]=b[r]
+    r++
+}
+alert(c)
+/*usando push*/
+
 var vetora = []
 var vetorb = []
 var vetorc = []
