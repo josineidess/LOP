@@ -12,7 +12,7 @@ for(var e = 0,m_3 = 0,m_4 = 0,nm = 0;e < 20;e++){
             vetor_m_3[m_3]=vetor_geral[e]
             vetor_m_4[m_4]=vetor_geral[e]
             m_4++
-            m_4++
+            m_3++
         }else{
             if(vetor_geral[e]%3==0){
                 vetor_m_3[m_3] = vetor_geral[e]
