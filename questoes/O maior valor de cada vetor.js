@@ -1,3 +1,24 @@
+var vetora = [],vetorb = [],vetorc = []
+for(var e = 0;e < 10;e++){
+    var n = parseInt(prompt("num: "))
+    vetora[e] = n
+}
+for(var i = 0;i < 10;i++){
+    var n = parseInt(prompt("num: "))
+    vetorb[i] = n
+}
+for(var e = 0;e < 10;e++){
+    if(vetora[e] > vetorb[e]){
+        vetorc[e] = vetora[e]
+    }else{
+        vetorc[e] = vetorb[e]
+    }
+}
+alert(vetorc)
+
+
+/*usando método push*/
+
 var vetora = []
 var vetorb = []
 var vetorc = []
