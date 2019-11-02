@@ -1,3 +1,14 @@
+var string = prompt("palavra: ")
+var vetor = []
+var msg = ''
+for(var e = 9;e >= 0;e--){
+  vetor[e] = string.charAt(e)
+  msg+=vetor[e]
+}
+alert(msg)
+
+/*outra forma de fazer*/
+
 //recebe string
 var Str = prompt('entrada: ')
 var array = []
