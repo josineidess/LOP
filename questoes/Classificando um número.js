@@ -1,3 +1,39 @@
+'''repetição contada(for)'''
+
+var n = parseInt(prompt("num: "))
+var cont = 1
+var divs = ''
+if(n%2===1 && n < 15){
+    var f = n-1
+    var fat = n
+    while(f>0){
+        fat = fat * f
+        f--
+    }
+    alert(fat)
+}else{
+    if(n%2===0){
+        for(var e = 1;e <= n;e++){
+            if(n%e===0){
+                divs+=e+" "
+            }
+        }
+        alert(divs)
+    }
+    else{
+      if(n%2==1 && n >= 15){
+        for(var e = 2; e <= n;e++){
+        cont+=e
+   }
+   alert(cont)   
+  }
+        
+    }
+    
+}
+
+'''com while'''
+
 var n = parseInt(prompt("num: "))
 var div = 2
 var msg = "1"+' '
